@@ -1,7 +1,7 @@
 # Vlaamse URI-standaard Validator
 
 ## Inleiding
-Het document [Vlaamse URI-standaard voor data](https://data.vlaanderen.be/cms/VlaamseURI-StandaardVoorData_V1.0.pdf) beschrijft de vormregels waarin __Uniform Resource Identifiers__ of kortweg URI's, die door Vlaamse overheden worden toegekend, dienen te voldoen om data-resources op een uniforme manier te ontsluiten via het Web. In het document wordt beschreven hoe URI's dienen vervaardigd te worden om die resources **persistent** te identificeren. Hierdoor kunnen achterliggende systemen evolueren terwijl de URI onveranderd blijft. Een belangrijke opmerking is dat de vormregels niet noodzakelijk van toepassing zijn op URI's van services, maar wel voor data die via services worden ontsloten.
+Het document [Vlaamse URI-standaard voor data](https://data.vlaanderen.be/cms/VlaamseURI-StandaardVoorData_V1.0.pdf) beschrijft de vormregels waarin __Uniform Resource Identifiers__ of kortweg URI's die door Vlaamse overheden worden toegekend, dienen te voldoen om data-resources op een uniforme manier te ontsluiten via het Web. In het document wordt beschreven hoe URI's dienen vervaardigd te worden om die resources **persistent** te identificeren. Hierdoor kunnen achterliggende systemen evolueren terwijl de URI onveranderd blijft. Een belangrijke opmerking is dat de vormregels niet noodzakelijk van toepassing zijn op URI's van services, maar wel voor data die via services worden ontsloten.
 
 Alle persistente URI's moeten gevormd worden volgens het patroon:
 ```
