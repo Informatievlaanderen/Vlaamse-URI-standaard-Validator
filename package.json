@@ -1,0 +1,33 @@
+{
+  "name": "flemish-uri-validator-demo",
+  "version": "1.0.0",
+  "description": "Demo application to validate a URI againt the Flemish URI Standard with the flemish-uri-standard-validator package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass --include-path node_modules/@govflanders/ --include-path scss src/scss/style.scss  src/css/style.css"
+  },
+  "author": "Dwight Van Lancker",
+  "license": "ISC",
+  "dependencies": {
+    "@govflanders/vl-ui-alert": "^3.9.2",
+    "@govflanders/vl-ui-button": "^3.9.2",
+    "@govflanders/vl-ui-content-header": "^3.9.2",
+    "@govflanders/vl-ui-core": "^3.9.2",
+    "@govflanders/vl-ui-input-field": "^3.9.2",
+    "@govflanders/vl-ui-introduction": "^3.9.2",
+    "@govflanders/vl-ui-loader": "^3.9.2",
+    "@govflanders/vl-ui-pill": "^3.9.2",
+    "@govflanders/vl-ui-side-navigation": "^3.9.2",
+    "@govflanders/vl-ui-titles": "^3.9.2",
+    "@govflanders/vl-ui-typography": "^3.9.2",
+    "@govflanders/vl-ui-util": "^3.9.2",
+    "express": "^4.17.1",
+    "flemish-uri-standard-validator": "^1.0.6",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.3"
+  }
+}
