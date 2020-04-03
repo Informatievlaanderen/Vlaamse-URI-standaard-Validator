@@ -65,7 +65,6 @@
     @import "~@govflanders/vl-ui-icon/src/scss/icon";
     @import "~@govflanders/vl-ui-titles/src/scss/titles";
     @import "~@govflanders/vl-ui-checkbox/src/scss/checkbox";
-    @import "~@govflanders/vl-ui-modal/src/scss/modal";
 
     .vl-input-field {
         height: 40px;
