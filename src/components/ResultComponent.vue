@@ -215,7 +215,7 @@
                     <!-- Validation button was not clicked -->
                     <tbody v-if="!baseRulesValidated">
                     <tr>
-                        <td>Voert een redirect (303) uit naar {{this.URI.replace('/id/', '/doc/')}}</td>
+                        <td>Voert een correcte redirect (303) uit</td>
                         <td></td>
                     </tr>
                     <tr>

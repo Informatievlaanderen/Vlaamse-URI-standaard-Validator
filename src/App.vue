@@ -53,7 +53,8 @@
                 <p>
                     Achteraan het document <a href="https://data.vlaanderen.be/cms/VlaamseURI-StandaardVoorData_V1.0.pdf">Vlaamse URI-standaard voor data</a> bevindt zich
                     een checklist. Deze checklist laat toe om URI's te evalueren. Een URI is 100% compliant met de Vlaamse URI-standaard indien op alle vragen 'ja'
-                    kan geantwoord worden.
+                    kan geantwoord worden. Met deze validator worden een aantal van deze voorwaarden automatisch gecontroleerd. Niet alle voorwaarden op de checklist kunnen softwarematig gecontroleerd
+                    worden. Het is dan aan de gebruiker om na te gaan of zijn URI voldoet aan de voorwaarde door de checkbox al dan niet aan te vinken.
                 </p>
             </vl-layout>
         </vl-region>

@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "test": "jest --coverage"
   },
   "dependencies": {
     "@govflanders/vl-ui-button": "^3.10.12",
@@ -25,6 +26,8 @@
     "@govflanders/vl-ui-toggle": "^3.10.12",
     "@govflanders/vl-ui-util": "^3.10.12",
     "@govflanders/vl-ui-vue-components": "^3.10.14",
+    "@vue/cli-plugin-unit-jest": "^4.5.4",
+    "@vue/test-utils": "^1.0.5",
     "core-js": "^3.6.4",
     "flemish-uri-standard-validator": "^1.4.0",
     "lodash": "^4.17.15",

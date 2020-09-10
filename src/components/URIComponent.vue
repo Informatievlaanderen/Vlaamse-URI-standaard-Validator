@@ -14,7 +14,7 @@
                                         mod-block></vl-input-field>
                     </vl-column>
                     <vl-column class="vl-push--4-12">
-                        <vl-button @click="startValidation">Valideer</vl-button>
+                        <vl-button id="validateButton" @click.native="startValidation">Valideer</vl-button>
                     </vl-column>
                 </vl-grid>
             </vl-layout>
@@ -43,11 +43,6 @@
         data() {
             return {
                 URI: '',
-                validated: false,
-                protocol: null,
-                structure: null,
-                type: null,
-                reference: null
             }
         },
         methods: {
