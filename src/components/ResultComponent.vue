@@ -359,6 +359,7 @@
         },
         methods: {
             async validateURI() {
+                this.resetCounters();
                 this.dereferencingValidated = false;
 
                 const formRulesResult = new URIValidator.FormRulesCheck(this.URI).checkURI();
@@ -400,6 +401,13 @@
                 } else {
                     counterToUpdate.value -= 1;
                 }
+            },
+            resetCounters(){
+                this.formRulesCounter.value = 0;
+                this.domainRulesCounter.value = 0;
+                this.typeRulesCounter.value = 0;
+                this.conceptRulesCounter.value = 0;
+                this.referenceRulesCounter.value = 0;
             }
         }
     }
