@@ -29,6 +29,7 @@ import {
     VlLoader,
     VlModal
 } from '@govflanders/vl-ui-vue-components';
+import router from "./router/route";
 
 Vue.component('vl-region', VlRegion);
 Vue.component('vl-layout', VlLayout);
@@ -57,5 +58,6 @@ Vue.use(VlCore);
 Vue.use(VlUtil);
 
 new Vue({
+    router,
     render: h => h(App),
 }).$mount('#app')
