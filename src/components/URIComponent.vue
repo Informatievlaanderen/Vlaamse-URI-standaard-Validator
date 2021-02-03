@@ -20,16 +20,25 @@
             </vl-layout>
         </vl-region>
 
-        <br>
-        <vl-layout>
-            <vl-title tag-name="h1" mod-alt>Compliancy checklist</vl-title>
-            <p>
-                Niet alle regels van de compliancy checklist kunnen technisch gecontroleerd worden. Het is dus aan de gebruiker om manueel
-                zorgvoldig te controleren of aan de regels van de Vlaamse URI-standaard voldaan wordt.
-            </p>
-        </vl-layout>
+        <vl-region>
+            <vl-layout>
+                <vl-grid mod-stacked>
+                    <vl-column>
+                        <vl-title tag-name="h1" mod-alt>Compliancy checklist</vl-title>
+                    </vl-column>
+                    <vl-column>
+                        <vl-typography>
+                            Niet alle regels van de compliancy checklist kunnen technisch gecontroleerd worden. Het is dus aan de gebruiker om manueel
+                            zorgvoldig te controleren of aan de regels van de Vlaamse URI-standaard voldaan wordt.
+                        </vl-typography>
+                    </vl-column>
+                    <vl-column>
+                        <ResultComponent ref="result" :URI="URI"/>
+                    </vl-column>
+                </vl-grid>
 
-        <ResultComponent ref="result" :URI="URI" />
+            </vl-layout>
+        </vl-region>
     </div>
 </template>
 

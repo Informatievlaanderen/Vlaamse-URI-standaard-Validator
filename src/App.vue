@@ -16,4 +16,5 @@
     @import "~@govflanders/vl-ui-content-header/src/scss/content-header";
     @import "~@govflanders/vl-ui-introduction/src/scss/introduction";
     @import "~@govflanders/vl-ui-side-navigation/src/scss/side-navigation";
+    @import "~@govflanders/vl-ui-typography/src/scss/typography";
 </style>

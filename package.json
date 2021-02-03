@@ -24,6 +24,7 @@
     "@govflanders/vl-ui-side-navigation": "^3.12.10",
     "@govflanders/vl-ui-titles": "^3.12.10",
     "@govflanders/vl-ui-toggle": "^3.12.10",
+    "@govflanders/vl-ui-typography": "^3.12.10",
     "@govflanders/vl-ui-util": "^3.12.10",
     "@govflanders/vl-ui-vue-components": "^3.11.0",
     "@vue/cli-plugin-unit-jest": "^4.5.11",

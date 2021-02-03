@@ -27,7 +27,8 @@ import {
     VlDrawers,
     VlDrawer,
     VlLoader,
-    VlModal
+    VlModal,
+    VlTypography
 } from '@govflanders/vl-ui-vue-components';
 import router from "./router/route";
 
@@ -53,6 +54,7 @@ Vue.component('vl-drawers', VlDrawers);
 Vue.component('vl-drawer', VlDrawer);
 Vue.component('vl-loader', VlLoader);
 Vue.component('vl-modal', VlModal);
+Vue.component('vl-typography', VlTypography);
 
 Vue.use(VlCore);
 Vue.use(VlUtil);
