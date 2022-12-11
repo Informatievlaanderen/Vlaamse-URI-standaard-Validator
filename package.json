@@ -22,7 +22,7 @@
     "@govflanders/vl-ui-titles": "^3.9.2",
     "@govflanders/vl-ui-typography": "^3.9.2",
     "@govflanders/vl-ui-util": "^3.9.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "flemish-uri-standard-validator": "^1.0.6",
     "path": "^0.12.7"
   },
